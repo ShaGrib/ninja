@@ -1,13 +1,13 @@
 class Ninja {
-    constructor(name) {
+    constructor(name, health = 100, strength  = 3, speed = 3) {
         this.name = name;
-        this.health = 10;
-        this.strength = 3;
-        this.speed = 3;
+        this.health = health;
+        this.strength = strength;
+        this.speed = speed;
     }
 
     sayName() {
-        console.log(this.name);
+        console.log('My name is '+ this.name);
     }
 
     drinkSake() {
@@ -16,7 +16,7 @@ class Ninja {
     }
 
     showStats() {
-        console.log('Name is '+ this.name + ',', 'Health is ' + this.health + ',', 'Strength is ' + this.strength + ',', 'Speed is ' + this.speed);
+        console.log('Name : '+ this.name + ',', 'Health : ' + this.health + ',', 'Strength : ' + this.strength + ',', 'Speed : ' + this.speed);
     }
 }
 
