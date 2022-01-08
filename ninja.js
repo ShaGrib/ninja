@@ -20,7 +20,7 @@ class Ninja {
     }
 }
 
-const ninja1 = new Ninja("Hyabusa");
+const ninja1 = new Ninja("Ryu Hyabusa");
 ninja1.sayName();
 ninja1.showStats();
 ninja1.drinkSake();
